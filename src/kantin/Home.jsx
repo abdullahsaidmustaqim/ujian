@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import NavBar from './navigasi/NavBar';
-
-import MyOrder from './order/MyOrder';
-import Header from './content/Header';
-import Category from './content/Category';
-import Popular from './content/Popular';
-import Modal from './content/Modal';
+import Navbar from './Navbar';
+import Order from './Order';
+import Header from './Header';
+import Kategori from './Kategori';
+import Popular from './Popular';
+import Modal from './Modal';
 
 class App extends Component {
   constructor(props) {
@@ -50,16 +49,16 @@ class App extends Component {
   render() {
     return (
       <div className="">
-        <NavBar />
+        <Navbar />
         <div className="container-fluid p-0">
           <div className="row mt-5">
             <div className="col-8 mt-5">
               <Header />
-              <Category popular={this.popularOnChange} />
+              <Kategori popular={this.popularOnChange} />
               <Popular popular={this.state.popular} onShowModal={this.handlerModal} />
             </div>
             <div className="col-4 bg-light sidenav">
-              <MyOrder item={this.state.order} />
+              <Order item={this.state.order} />
             </div>
           </div>
         </div>
