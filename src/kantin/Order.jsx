@@ -47,7 +47,7 @@ class MyOrder extends Component {
                       <th><img src={item.image} className="edgeimage" height="50" alt="" /></th>
                       <td><span className="ml-3 mr-3">{item.pesan}</span></td>
                       <td><span className="mr-3 mt-2">x</span></td>
-                      <td><span className="mt-2">{item.pesan}</span></td>
+                      <td><span className="mt-2">{item.name}</span></td>
                       <td><span className="text-muted ml-2 mt-2">Rp. {item.harga * item.pesan}</span></td>
                     </tr>
                   ) : ''
