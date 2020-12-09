@@ -57,9 +57,6 @@ class Popular extends Component {
               </a>
             </div>
           ) : ''}
-
-
-
         </div>
       </div>
     )

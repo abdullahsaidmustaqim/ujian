@@ -33,7 +33,7 @@ class MyOrder extends Component {
           <div className="card-body">
             {/* KARTU ATM */}
             <div className="container kartuatm mb-3">
-              <p className="">Yusuf M. Edward</p>
+              <p className="">Abdullah Said Mustaqim</p>
               <h3 className="mb-4">Rp. 7.530.000,-</h3>
               <p className="card-number mb-0">2342********7856</p>
             </div>
@@ -59,7 +59,7 @@ class MyOrder extends Component {
                 <div className="container p-0">
                   <tr>
                     <th><img src={Car} className="edgeimage mt-2 mb-2 ml-2" height="50" alt="" /></th>
-                    <td colSpan="3"><span className="ml-4 mr-3">Jl. Jonggol No. 12, Bekasi</span></td>
+                    <td colSpan="3"><span className="ml-4 mr-3">Jl. Merak No. 2, Pekanbaru</span></td>
                     <td><span className="text-muted ml-4 mt-2">Gratis</span></td>
                   </tr>
                   <tr>
